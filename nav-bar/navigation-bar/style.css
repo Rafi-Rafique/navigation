@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(65, 204, 151) ;
+}
+header{
+    background-color: rgb(8, 138, 86);
+}
+.logo{
+    display: inline-block;
+    margin: 20px;
+}
+.logo>img{
+    width: 110px;
+    padding-right: 250px;
+   
+}
+.nav{
+    display: inline-block;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+.nav>a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 22px;
+    color: rgb(72, 7, 72);
+    vertical-align: middle;
+    
+}
+.nav>a:hover{
+    background-color: rgb(57, 123, 16);
+}
+.nav>a::first-letter{
+    font-size: 1em;
+    color: aquamarine;
+    text-shadow: 4px 3px 0 rebeccapurple;
+   
+}
